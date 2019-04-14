@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aplicação</string>
+    <string name="app_name">Sing.ed</string>
     <string name="botao_cadastrar">Cadastrar</string>
     <string name="botao_cancelar">Cancelar</string>
     <string name="botao_alterar">Salvar</string>
@@ -121,5 +121,7 @@
     <string name="sem_favoritos">Você não possui favoritos</string>
     <string name="title_activity_tela_inicial">TelaInicial</string>
 
+    <string name="txt_list_sindico">Manutenção de caixa de água</string>
+    <string name="txt_list_sindico_date">21/03/2020</string>
 
 </resources>

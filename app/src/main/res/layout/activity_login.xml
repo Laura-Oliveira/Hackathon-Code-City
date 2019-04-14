@@ -13,12 +13,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="268dp"
         android:layout_marginEnd="8dp"
-        android:background="#4d000000"
         android:ems="10"
         android:hint="email"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
-        android:textColor="@color/textColorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,12 +29,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
-        android:background="#4d000000"
         android:ems="10"
         android:hint="@string/digite_sua_senha"
         android:inputType="textPassword"
         android:textAlignment="center"
-        android:textColor="@color/textColorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,23 +46,35 @@
         android:layout_marginTop="128dp"
         android:layout_marginEnd="8dp"
         android:text="@string/botao_logar"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/White"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_login_senhaID" />
 
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img_logo"
         android:layout_width="0dp"
         android:layout_height="151dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:background="#4d000000"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/edit_login_emailID"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
+        app:layout_constraintVertical_bias="0.641"
+        app:srcCompat="@mipmap/ic_logo" />
+
+    <ImageView
+        android:id="@+id/img_predio"
+        android:layout_width="0dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toTopOf="@id/img_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/ic_predio" />
 
 </android.support.constraint.ConstraintLayout>

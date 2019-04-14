@@ -82,17 +82,17 @@ public class PrincipalActivity extends AppCompatActivity {
 
         TextView tabOne = (TextView) LayoutInflater.from(PrincipalActivity.this).inflate(R.layout.custom_tab, null);
         tabOne.setText("Construtora");
-        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_agenda, 0, 0);
+        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_contrutora, 0, 0);
         tabLayout.getTabAt(0).setCustomView(tabOne);
 
         TextView tabTwo = (TextView) LayoutInflater.from(PrincipalActivity.this).inflate(R.layout.custom_tab, null);
         tabTwo.setText("Síndico");
-        tabTwo.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_favoritos, 0, 0);
+        tabTwo.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_sindico, 0, 0);
         tabLayout.getTabAt(1).setCustomView(tabTwo);
 
         TextView tabThree = (TextView) LayoutInflater.from(PrincipalActivity.this).inflate(R.layout.custom_tab, null);
         tabThree.setText("Condomino");
-        tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_mapa, 0, 0);
+        tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_condomininos, 0, 0);
         tabLayout.getTabAt(2).setCustomView(tabThree);
     }
 
