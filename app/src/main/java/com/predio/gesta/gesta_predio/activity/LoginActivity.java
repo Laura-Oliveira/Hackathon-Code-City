@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.predio.gesta.gesta_predio.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -14,6 +13,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        String emailInput = findViewById(R.id.edit_login_emailID);
+        String senhaInput = findViewById(R.id.edit_login_senhaID);
 
         Button botaoLogar = findViewById(R.id.botao_logarID);
 
@@ -27,13 +29,24 @@ public class LoginActivity extends AppCompatActivity {
 
                 //validarLogin();
 
-                Intent it = new Intent(LoginActivity.this, PrincipalActivity.class);
-                startActivity(it);
+                logar();
+
             }
         });
 
     }
 
+    public void logar()
+    {
+        String email = emailInput.getText().toString();
+        String senha = senhaInput.getText().toString();
 
+        if(email == "user" && senha == "123456")
+        {
+            Intent principalIntent = new Intent(LoginActivity.this, PrincipalActivity.class);
+            startActivity(principalIntent);
+        }
+
+    }
 
 }
