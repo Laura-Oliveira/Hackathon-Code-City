@@ -1,3 +1,9 @@
+#Credenciais do sistema
+
+#**Login:** user@gmail.com
+#**Senha:**123456
+
+
 # sIng.Ed - Sistema Integrado de Gestão de Serviços
 Projeto da hackathon code a city 2.0 o qual visa facilitar e otimizar o fluxo de informações ente construtora, síndico e condômino. De modo que todos os stakeholders sempre estejam na mesma página de conhecimento sobre o que ocorre o seu condomínio.
 
