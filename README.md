@@ -6,7 +6,7 @@ Projeto da hackathon code a city o qual visa facilitar e otimizar o fluxo de inf
 **Solução:** através de uma plataforma mobile conectar esses três stakeholders de forma que a informação flua em de ponta a ponta na dinâmica da comunicação.
 
 **Fluxo da informação:**
-Construtora - síndico - condòmino
+Construtora - síndico - condômino
 
 A construtura monitore as manutenções que o condomínio possui a obrigação de realzar em um espaço de tempo de cinco anos, para poder ter garantia em casos de danos estruturais no edifício.
 
@@ -24,7 +24,7 @@ Firebase
 Pois possui uma melhor integração com a aplicação.
 
 
-## Na pasta de documentação segue o fluxo do sistema seguindo o modelo bpmn
+## Na pasta de documentação segue o fluxo do sistema seguindo o modelo bpmn e na Wiki do projeto
 
 
 
