@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sing.ed</string>
+    <string name="app_name">sIng.ed</string>
     <string name="botao_cadastrar">Cadastrar</string>
     <string name="botao_cancelar">Cancelar</string>
     <string name="botao_alterar">Salvar</string>
@@ -24,7 +24,7 @@
     <string name="msg_dialog_excluir_conta">Para sua segurança, precisamos confirmar o seu e-mail e senha</string>
     <string name="titulo_dialog_excluir_conta">Excluir Conta</string>
     <string name="text_senha">*Senha</string>
-    <string name="title_activity_principal">ClinUP</string>
+    <string name="title_activity_principal">sIgn.ed</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
