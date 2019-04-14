@@ -1,7 +1,7 @@
 #Credenciais do sistema
 
-#**Login:** user@gmail.com
-#**Senha:**123456
+# **Login: user@gmail.com**
+# **Senha: 123456**
 
 
 # sIng.Ed - Sistema Integrado de Gestão de Serviços
