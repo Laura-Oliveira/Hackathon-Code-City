@@ -16,12 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.predio.gesta.gesta_predio.activity.LoginActivity;
-
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,13 +27,8 @@ import com.predio.gesta.gesta_predio.fragments.CondominoFragment;
 import com.predio.gesta.gesta_predio.fragments.SindicoFragment;
 import com.predio.gesta.gesta_predio.fragments.ConstrutoraFragment;
 
-import com.predio.gesta.gesta_predio.helper.*;
-
 
 public class PrincipalActivity extends AppCompatActivity {
-
-    //Drawerr com valor nulo para fechar caso o usuario aperte "voltar"
-    //private Drawer result = null;
 
     private String nomeUser, emailUser, fotoUser;
 
@@ -69,13 +60,6 @@ public class PrincipalActivity extends AppCompatActivity {
 
         setupTabIcons();
 
-        //toolbar = findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-        // Pegar o ID do usuário logado
-        //Preferencias preferencesUser = new Preferencias(PrincipalActivity.this);
-        //String idUsuarios = preferencesUser.getIdentificador();
-
-
     }
 
     private void setupTabIcons() {
@@ -103,6 +87,17 @@ public class PrincipalActivity extends AppCompatActivity {
         adapter.addFragment(new SindicoFragment(), "Favoritos");
         adapter.addFragment(new CondominoFragment(), "Localização");
         viewPager.setAdapter(adapter);
+    }
+
+    public void click(View view) {
+        Button buttonManutencao = findViewById(R.id.imageButton3);
+        buttonManutencao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent principalIntent = new Intent(PrincipalActivity.this, ManutencaoActivity.class);
+                    startActivity(principalIntent);
+            }
+        });
     }
 
     class ViewPagerAdapter extends FragmentPagerAdapter {

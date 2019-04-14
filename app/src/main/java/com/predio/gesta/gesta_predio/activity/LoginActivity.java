@@ -11,8 +11,6 @@ import com.predio.gesta.gesta_predio.R;
 
 public class LoginActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,19 +23,7 @@ public class LoginActivity extends AppCompatActivity {
 
         botaoLogar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {/* Criando o evento para esperar o clique no botão
-                                             , caso clicado ele entra e executa o conteúdo*/
-                //usuario = new Usuario();
-                //usuario.setEmail(email.getText().toString());
-                //usuario.setSenha(senha.getText().toString());
-
-                //validarLogin();
-
-                //Intent it = new Intent(LoginActivity.this, PrincipalActivity.class);
-                //startActivity(it);
-
-                //EditText email = emailInput.getText().toString();
-                //EditText senha = senhaInput.getText().toString();
+            public void onClick(View v) {
 
                 if(emailInput.getText().toString().equals("user@gmail.com") && senhaInput.getText().toString().equals("123456")) {
 
@@ -45,15 +31,8 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(principalIntent);
                 }
 
-                //logar(v);
             }
         });
 
-
-
     }
-
-
-
-
 }

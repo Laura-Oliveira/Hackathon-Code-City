@@ -5,7 +5,7 @@
     <string name="botao_alterar">Salvar</string>
     <string name="texto_validacao">Validação</string>
     <string name="botao_validar">Validar</string>
-    <string name="botao_logar">Logar</string>
+    <string name="botao_logar"> Entrar</string>
     <string name="texto_cadastre">Não tem conta? Cadastre-se!</string>
     <string name="item_configuracao">Configurações</string>
     <string name="item_sair">Sair</string>
@@ -123,5 +123,14 @@
 
     <string name="txt_list_sindico">Manutenção de caixa de água</string>
     <string name="txt_list_sindico_date">21/03/2020</string>
+    <string name="title_activity_teste">Teste</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_testet">Testet</string>
 
+    <string name="txt_manu">Título: Manutenção de Caixa de Água</string>
+    <string name="txt_manu1">Data:21/05/2018</string>
+    <string name="txt_manu2"> Status: Pendente</string>
+    <string name="txt_manu3"> Descrição: Manutenção da caixa água no bloco A do edifício Madrid</string>
 </resources>

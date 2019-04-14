@@ -24,14 +24,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/White"
-                android:src="@drawable/nome2" />
+                android:src="@drawable/nome2"
+                />
 
-            <ImageButton
+            <Button
                 android:id="@+id/imageButton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/White"
-                android:src="@drawable/botaoteste" />
+                android:background="@drawable/botaoteste"
+                android:onClick="click"/>
 
             <ImageButton
                 android:id="@+id/imageButton4"
@@ -59,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/White"
-                android:src="@drawable/nome8" />
+                android:src="@drawable/nome8"/>
 
         </LinearLayout>
 

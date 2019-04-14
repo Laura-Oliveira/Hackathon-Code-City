@@ -1,14 +1,18 @@
 package com.predio.gesta.gesta_predio.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.predio.gesta.gesta_predio.R;
+import com.predio.gesta.gesta_predio.activity.ManutencaoActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +63,8 @@ public class SindicoFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
     }
 
     @Override

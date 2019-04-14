@@ -9,6 +9,9 @@
     <color name="Black">#000000</color>
     <color name="White">#FFFFFF</color>
     <color name="Red">#FF0000</color>
+    <color name="AzulBebe">#75AFB5</color>
+    <color name="azul_botao">#1B9BA8</color>
+
 
     <!-- Material DEFAULT colors -->
     <color name="material_drawer_primary">#2196F3</color>
