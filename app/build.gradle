@@ -17,6 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+//    debug {
+//        signingConfig signingConfigs.debug
+//    }
+
     namespace 'com.predio.gesta.gesta_predio'
 }
 
